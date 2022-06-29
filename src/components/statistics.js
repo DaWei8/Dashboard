@@ -9,11 +9,6 @@ ChartJS.register(
     CategoryScale, LinearScale, PointElement, Filler
 )
 
-const style = {
-    width: '50vw',
-    maxHeight: '30vh',
-
-}
 const Statistics = () => {
     const [data, setData] = useState({
         labels: ["Jan", "Feb", "March", "April", "May", "June", 'July', 'August'],
