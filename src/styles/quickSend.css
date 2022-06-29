@@ -1,0 +1,37 @@
+.quick-send .container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.quick-send .title {
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+.quick-send .profiles {
+    /* padding-right: 40px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.quick-send .profiles .profile {
+    background-color: cornflowerblue;
+    max-height: 50px;
+    width: 50px;
+    /* padding: 10px; */
+    border-radius: 50%;
+}
+
+.quick-send .add-profile {
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 50%;
+}

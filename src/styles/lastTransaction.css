@@ -1,0 +1,114 @@
+.last-transaction {
+    margin-top: 50px;
+    /* margin-left: 40px; */
+    display: block;
+    /* flex-direction: column; */
+    
+}
+.last-transaction .last-container {
+    /* max-width: 60vw; */
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+    text-align: left;
+    height: max-content;
+    float: inline-end;
+}
+
+.last-transaction .last-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.last-heading {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.see-more {
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-see-more {
+    margin-right: 14px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.icon-see-more {
+    height: 18px;
+    width: 18px;
+}
+
+.transaction-list {
+    display: flex;
+    max-height: 500px;
+    text-align: left;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+/* Transaction Item */
+
+
+.transaction-item {
+    display: block;
+    width: 50vw;
+}
+
+.transaction-container {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.company-icon {
+    width: 35px;
+    min-height: 35px;
+    margin-right: 35px;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    /* width: 300px; */
+}
+
+.company-name {
+    font-size: 15px;
+    font-weight: 700;
+    /* margin-right: 150px; */
+    display: flex;
+    width: 300px;
+    flex-direction: row;
+}
+
+.company-time {
+    font-size: 15px;
+    font-weight: 500;
+    color: #00000075;
+    /* min-width: max-content; */
+    display: flex;
+    flex-direction: row;
+
+}
+
+.transaction-type {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+    width: 300px;
+}
+
+.transaction-cost {
+    justify-self: right;
+    /* float: right; */
+    font-size: 15px;
+    font-weight: 700;
+    text-align: right;
+    width: 50px;
+}

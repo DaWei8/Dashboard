@@ -1,0 +1,77 @@
+.credit-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.credit-card .container {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.credit-card .credit-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.card .card-container{
+    background-color: #2A38BF;
+    border-radius: 30px;
+    width: 20vw;
+    max-width: 300px;
+    height: 200px;
+    padding-left: 35px;
+}
+
+
+.card-container-head {
+    
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-container-head .visa-back  {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 206px;
+    height: 83px;
+    background-color: #E42C66;
+    /* padding-top: 25px; */
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 100%;
+
+}
+
+.card-container-head .visa {
+    margin-top: 25px;
+    font-size: 36px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+}
+
+.card-container-head .visa-icon {
+    margin-right: 40px;
+    background-color: #ffffff30;
+    align-self: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+}
+
+.card-container .card-number {
+    margin-top: 25px;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: aliceblue;
+}

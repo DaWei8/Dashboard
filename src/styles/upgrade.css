@@ -1,0 +1,36 @@
+.upgrade .container {
+    height: 200px;
+    width: 20vw;
+    max-width: 300px;
+    background-color: #F7B87D;
+    border-radius: 30px;
+    padding-left: 35px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.upgrade .title {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+}
+
+.upgrade .text {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.upgrade .get-now {
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px 25px;
+    width: fit-content;
+}

@@ -1,0 +1,47 @@
+.statistics {
+    margin-top: 50px;
+    /* margin-left: 40px; */
+    text-align: left;
+    display: block;
+    /* flex-direction: column; */
+
+}
+
+.statistics .stats-container {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    min-height: max-content;
+}
+
+.statistics-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stats-head {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.statistics-heading .stats-right-heading {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    gap: 20px;
+}
+
+.income {
+    font-weight: 700;
+}
+
+
+/* Graph */
+
+.stats-graph {
+    padding-top: 30px;
+    width: 50vw;
+    max-height: 40vh;
+}
+

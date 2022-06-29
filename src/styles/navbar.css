@@ -1,0 +1,125 @@
+.nav-bar {
+    position: fixed;  
+    min-height: 100vh;
+    background-color: #2A38BF;
+}
+
+.nav-bar .container {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    width: 20vw;
+    
+}
+
+/* Menu */
+
+.nav-bar .menu {
+    font-size: 16px;
+    color: azure;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 48px;
+    text-align: left;
+
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+
+/* LOGO */
+.logo {
+    height: max-content;
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 83px;
+    color: aliceblue;
+}
+.logo-container {
+    display: flex;
+}
+.logo-icon {
+    padding-left: 44px;
+    display: inline;
+    color: bisque;
+    width: 50px;
+    height: 50px;
+}
+.logo-icon-name {
+    padding-top: 15px;
+    margin-left: 28px;
+    display: inline;
+    font-size: 18px;
+    color: azure;
+}
+
+
+/* Log out */
+.nav-bar .logout {
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 83px;
+    color: aliceblue;
+}
+.logout-container {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logout-icon {
+    display: inline;
+    color: azure;
+    width: 20px;
+    height: 20px;
+}
+.logout-icon-name {
+
+    margin-left: 28px;
+    display: inline;
+    font-size: 16px;
+    color: azure;
+}
+
+/* Menu Item */
+
+.menu-item .container {
+    display: inline-flex;
+    min-width: 200px;
+}
+
+.menu-item .selection, .no-selection {
+    width: 5px;
+    height: 25px;
+    margin-right: 44px;
+}
+
+.selection {
+    background-color: aliceblue;
+}
+.menu-item .container {
+    display: inline-flex;
+    flex-direction: row;
+}
+.menu-item .container .icon {
+    color: aliceblue;
+    border: 2px aliceblue;
+    min-width: 16px;
+    min-height: 16px;
+    padding-right: 20px;
+}
+
+.menu-item .container .icon-name{
+    display: inline;
+    font-size: 16px;
+    font-weight: 600;
+}
